@@ -1,0 +1,52 @@
+/* #nav-container{
+    display: grid;  a must!
+    background-color: #2c3e50;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*/
+/* this is the main container: holding the two subsections*/
+/*.main-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+this takes the div main items and creates three equal columns; 
+because there are 3 nested divs*/
+
+/*.nav-item{
+    display: grid; need grid- because it allows us to allign contents
+    align-content: center;   align-content- moves things up and down: start, center, end 
+    color: #ecf0f1;
+    height: 100%;
+}*/
+/*changes each item of .main-items*/
+
+/*.logo-container{
+    display: grid;
+    justify-content: end; *//*justify will move content left/right: center, end, start
+}*/
+
+/* #search-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10 px;
+    justify-content: center;
+    padding: 20px
+}
+
+
+#results-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.result{
+    display: grid;
+    height: 100px;
+    background-color: #16a085;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+} */
