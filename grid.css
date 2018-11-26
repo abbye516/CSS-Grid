@@ -50,3 +50,98 @@ because there are 3 nested divs*/
     align-content: center;
     border-radius: 4px;
 } */
+
+#chat{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f i";
+    /* background-color: purple */
+}
+
+#friends{
+    grid-area: f;
+    display: grid;
+    background-color: violet;
+    padding-left: 5px;
+
+}
+#freya{
+    background-color: peru;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#chatbox{
+    grid-area: c;
+    display: grid;
+
+    background-color: rgb(179, 174, 174);
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: fantasy;
+    font-size: 12px;
+    text-align: start
+    /* grid-template-areas: inherit */
+}
+
+.text-container{
+    background-color:grey;
+    border-radius: 5px; 
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+}
+
+.text{
+    margin-left: 2px;
+    width: auto;
+}
+
+.left{
+    display: grid;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.right{
+    display: grid;
+    margin-left: 83%;
+    margin-bottom: 20px;
+}
+
+#input{
+    grid-area: i;
+    display: grid;
+    position: relative;
+    text-align: center;
+}
+#send{
+    justify-content: end;
+    display: grid;
+}
+
+#send{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    background-color: blueviolet;
+    margin-left: 80%;
+    text-align: center;
+    display: inline-block
+}
+
+.time{
+    font-size: 10px;
+    text-align: end;
+    position: relative;
+    display: inline-block;
+}
+
+#message{
+    width: 700px;
+    height: 10pxl
+}
